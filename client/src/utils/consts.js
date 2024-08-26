@@ -1,0 +1,7 @@
+export const BOOKS_ROUTE = '/books'
+export const AUTHORS_ROUTE = '/authors'
+export const BOOK_CARD_ROUTE = '/bookCard'
+export const AUTHOR_CARD_ROUTE = '/authorCard'
+export const BOOK_EDIT_ROUTE = '/bookEdit'
+export const AUTHOR_EDIT_ROUTE = '/authorEdit'
+export const BOOK_WORM_ROUTE = '/bookWorm'

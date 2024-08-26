@@ -1,0 +1,185 @@
+.navbar {
+  width: 100%;
+}
+.page-item .page-link {
+  z-index: 1;
+  color: black;
+  background-color: #fff;
+  border-color: black;
+}
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+.ghost-style {
+  background-color:#ffffff;
+  color:grey;
+  border-color: #ffffff;
+}
+.ghost-style:hover {
+  background-color:#ffffff;
+  color:grey;
+  border-color: #ffffff;
+}
+.editButton {
+  width: 20%;
+}
+.deleteButton {
+  width: 20%;
+}
+* {
+  font-size: 1.23vw;
+}
+.left-pad {
+  max-width: 25%;
+  display: inline-block;
+}
+.right-pad {
+  max-width: 60%;
+  display: inline-block;
+}
+.heroCard {
+  width: 25%;
+}
+.bookPic{
+  max-width: calc(100% + 2rem);
+  height: auto;
+  aspect-ratio: 150 / 240;
+}
+.mainPage {
+  justify-content: center;
+}
+
+@media (max-width: 912px) {
+  * {
+  font-size: 3vw;
+  }
+  .left-pad {
+  max-width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  }
+  .left-pad .dropdown-toggle {
+  background-color:#ffffff;
+  color:black;
+  border-color: white;
+  min-width: 40%;
+  }
+  .clearBtn {
+    display: block;
+    padding-left: 15%;
+  }
+  .Filters {
+    display: block;
+    margin: 0;
+  }
+  .left-pad .dropdown-toggle:hover {
+  background-color:#ffffff;
+  color:black;
+  border-color: white;
+  min-width: 40%
+  }
+  .left-pad .dropdown-toggle:active {
+  background-color:#ffffff;
+  color:black;
+  border-color: white;
+  min-width: 40%
+  }
+  .left-pad .dropdown-toggle:focus {
+  background-color:#ffffff;
+  color:black;
+  border-color: white;
+  min-width: 40%
+  }
+  .btn-check:active+.btn-dark:focus, .btn-check:checked+.btn-dark:focus, .btn-dark.active:focus, .btn-dark:active:focus, .show>.btn-dark.dropdown-toggle:focus {
+    box-shadow: none; 
+  }
+  .btn-check:focus+.btn-dark, .btn-dark:focus {
+    color: #fff;
+    background-color: #1c1f23;
+    border-color: #1a1e21;
+    box-shadow: none;
+  }
+  .dropdown {
+    display: inline-flex;
+    min-width: 40%;
+  }
+  .right-pad {
+  max-width: 100%;
+  }
+  .mainPage {
+  flex-direction: column;
+  }
+  .heroCard {
+  width: 33%;
+  padding: 2%;
+}
+}
+
+@media (max-width: 400px) {
+  * {
+  font-size: 3vw;
+  }
+  .left-pad {
+  max-width: 100%;
+  justify-content: center;
+  padding: 0;
+  }
+  .left-pad .dropdown-toggle {
+  background-color:#ffffff;
+  color:black;
+  border-color: white;
+  min-width: 40%;
+  }
+    .clearBtn {
+    display: block;
+    padding-left: 15%;
+  }
+  .Filters {
+    display: block;
+    margin: 0;
+  }
+  .left-pad .dropdown-toggle:hover {
+  background-color:#ffffff;
+  color:black;
+  border-color: white;
+  min-width: 40%
+  }
+  .left-pad .dropdown-toggle:active {
+  background-color:#ffffff;
+  color:black;
+  border-color: white;
+  min-width: 40%
+  }
+  .left-pad .dropdown-toggle:focus {
+  background-color:#ffffff;
+  color:black;
+  border-color: white;
+  min-width: 40%
+  }
+  .btn-check:active+.btn-dark:focus, .btn-check:checked+.btn-dark:focus, .btn-dark.active:focus, .btn-dark:active:focus, .show>.btn-dark.dropdown-toggle:focus {
+    box-shadow: none; 
+  }
+  .btn-check:focus+.btn-dark, .btn-dark:focus {
+    color: #fff;
+    background-color: #1c1f23;
+    border-color: #1a1e21;
+    box-shadow: none;
+  }
+  .dropdown {
+    display: inline-flex;
+    min-width: 40%;
+  }
+  .right-pad {
+  max-width: 100%;
+  }
+  .mainPage {
+  flex-direction: column;
+  }
+  .heroCard {
+  width: 50%;
+  padding: 2%;
+}
+}
